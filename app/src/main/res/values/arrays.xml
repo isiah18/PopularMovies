@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sort_by_titles">
+        <item name="popular_title">@string/menu_item_popular</item>
+        <item name="top_rated_title">@string/menu_item_top_rated</item>
+    </array>
+
+    <array name="sort_by_entries">
+        <item name="popular_entry">@string/popular_key</item>
+        <item name="top_rated_entry">@string/top_rated_key</item>
+    </array>
+</resources>

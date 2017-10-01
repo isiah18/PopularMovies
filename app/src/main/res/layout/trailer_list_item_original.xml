@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:paddingTop="1dp"
+    android:paddingBottom="1dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/original_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/video_image_original_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/arrow_image_cd"
+            android:src="@drawable/play_image"
+            android:paddingRight="15dp"
+            />
+
+        <TextView
+            android:id="@+id/video_description_original_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="YOUTUBE TRAILER"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
